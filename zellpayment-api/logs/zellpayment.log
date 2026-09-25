@@ -57,3 +57,8 @@
 2026-09-25T20:29:28.245+05:30  INFO 6884 --- [zellpayment-api] [http-nio-9092-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-09-25T20:29:28.246+05:30  INFO 6884 --- [zellpayment-api] [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2026-09-25T20:29:28.248+05:30  INFO 6884 --- [zellpayment-api] [http-nio-9092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-09-25T22:15:22.195+05:30  INFO 6884 --- [zellpayment-api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-25T22:15:22.214+05:30  INFO 6884 --- [zellpayment-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-25T22:15:22.262+05:30  INFO 6884 --- [zellpayment-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-25T22:15:22.292+05:30  INFO 6884 --- [zellpayment-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-25T22:15:22.299+05:30  INFO 6884 --- [zellpayment-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
