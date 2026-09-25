@@ -301,3 +301,8 @@
 2026-09-24T21:43:28.709+05:30  WARN 23884 --- [zellpayment-api] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
 2026-09-24T21:43:28.709+05:30  WARN 23884 --- [zellpayment-api] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
 2026-09-24T21:43:28.710+05:30  INFO 23884 --- [zellpayment-api] [restartedMain] c.zellpayment.ZellpaymentApiApplication  : ZellpaymentApiApplication started
+2026-09-24T21:45:11.482+05:30  INFO 23884 --- [zellpayment-api] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-24T21:45:11.492+05:30  INFO 23884 --- [zellpayment-api] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-24T21:45:11.503+05:30  INFO 23884 --- [zellpayment-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-24T21:45:11.507+05:30  INFO 23884 --- [zellpayment-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-24T21:45:11.516+05:30  INFO 23884 --- [zellpayment-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
